@@ -1,0 +1,15 @@
+<facelet-taglib version="2.0" xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facelettaglibrary_2_0.xsd">
+
+    <namespace>http://c3js4jsf.org/c3js4jsf</namespace>
+	<tag>
+		<tag-name>bar</tag-name>
+		<source>org/c3js4jsf/bar.xhtml</source>
+	</tag>
+	<tag>
+		<tag-name>pie</tag-name>
+		<source>org/c3js4jsf/pie.xhtml</source>
+	</tag>
+		
+</facelet-taglib>

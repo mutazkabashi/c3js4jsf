@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/media/mypart1/ubuntu-folder/almedtech/dashboard_library/c3/c3.css">
+    <script src="/media/mypart1/ubuntu-folder/almedtech/dashboard_library/d3/d3.min.js" charset="utf-8"></script>
+    <script src="/media/mypart1/ubuntu-folder/almedtech/dashboard_library/c3/c3.min.js" ></script>
+    <!--script src="/media/mypart1/ubuntu-folder/almedtech/dashboard_library/lodash.js"></script>
+    <script src="/media/mypart1/ubuntu-folder/almedtech/dashboard_library/contour-all/contour/contour.min.js"></script-->
+  </head>
+
+  <body>
+
+    <div id="chart"></div>
+
+    <script>
+       var chart = c3.generate({
+    bindto: '#chart',
+    data: {
+        x : 'x',
+        columns: [
+            ['x', 'Bar1', 'Bar2', 'Bar3', 'Bar4','Bar5'], // X bars Labels (ReportRow)
+            ['Bar1', 30, 20, 50, 40, 60, 50],
+            ['data2', 200, 130, 90, 240, 130, 220],
+            ['data3', 300, 200, 160, 400, 250, 250]
+        ],
+       /* groups: [
+            ['data1', 'data2','data3']  //Use as stack Bar
+        ],*/
+        type: 'bar',
+        colors: {
+            /*Bar1: '#ff0000',
+            data2: '#00ff00',
+            data3: '#0000ff'*/
+        },
+        
+    },
+   axis: {
+        x: {
+            type: 'category' // this needed to load string x value (Bar Labels)
+        }
+    }
+   
+});
+    </script>
+
+  </body>
+</html>

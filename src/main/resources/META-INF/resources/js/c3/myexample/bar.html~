@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/media/mypart1/ubuntu-folder/almedtech/dashboard_library/c3/c3.css">
+    <script src="/media/mypart1/ubuntu-folder/almedtech/dashboard_library/d3/d3.min.js" charset="utf-8"></script>
+    <script src="/media/mypart1/ubuntu-folder/almedtech/dashboard_library/c3/c3.min.js" ></script>
+    <!--script src="/media/mypart1/ubuntu-folder/almedtech/dashboard_library/lodash.js"></script>
+    <script src="/media/mypart1/ubuntu-folder/almedtech/dashboard_library/contour-all/contour/contour.min.js"></script-->
+  </head>
+
+  <body>
+
+    <div id="chart"></div>
+
+    <script>
+       var chart = c3.generate({
+    bindto: '#chart',
+    data: {
+        columns: [
+            ['data1', 30, 20, 50, 40, 60, 50],
+            ['data2', 200, 130, 90, 240, 130, 220],
+            ['data3', 300, 200, 160, 400, 250, 250]
+        ],
+        type: 'bar',
+        colors: {
+            data1: '#ff0000',
+            data2: '#00ff00',
+            data3: '#0000ff'
+        },
+        
+    }
+   
+});
+    </script>
+
+  </body>
+</html>
