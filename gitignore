@@ -1,0 +1,6 @@
+#ignore all files
+*.project
+*.classpath
+#Ignore these directories 
+settings
+target
