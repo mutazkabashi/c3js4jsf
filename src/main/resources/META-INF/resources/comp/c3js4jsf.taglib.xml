@@ -11,5 +11,9 @@
 		<tag-name>pie</tag-name>
 		<source>org/c3js4jsf/pie.xhtml</source>
 	</tag>
+	<tag>
+		<tag-name>donut</tag-name>
+		<source>org/c3js4jsf/donut.xhtml</source>
+	</tag>
 		
 </facelet-taglib>
