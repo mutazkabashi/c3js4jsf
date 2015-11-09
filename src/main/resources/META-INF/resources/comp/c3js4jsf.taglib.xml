@@ -19,5 +19,9 @@
 		<tag-name>spline</tag-name>
 		<source>org/c3js4jsf/spline.xhtml</source>
 	</tag>
+	<tag>
+		<tag-name>stackBar</tag-name>
+		<source>org/c3js4jsf/stackBar.xhtml</source>
+	</tag>
 		
 </facelet-taglib>
