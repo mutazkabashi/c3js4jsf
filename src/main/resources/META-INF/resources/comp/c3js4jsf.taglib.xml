@@ -15,5 +15,9 @@
 		<tag-name>donut</tag-name>
 		<source>org/c3js4jsf/donut.xhtml</source>
 	</tag>
+	<tag>
+		<tag-name>spline</tag-name>
+		<source>org/c3js4jsf/spline.xhtml</source>
+	</tag>
 		
 </facelet-taglib>
